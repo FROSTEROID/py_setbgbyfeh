@@ -1,0 +1,20 @@
+It's my HellWorld python3 script. No license, nothing at all. 
+Just a beam of code You can edit, distr, eat or even offer to someone else. :D
+I call it Autofeh or AutoBG. You can rename it, of cource.
+
+So, the script is based on "feh" program. It's not hard to find documentation about one.
+Autofeh was made to randomly choose an image from a sent directory and to set it as a wallpaper.
+Whet image is randomly choosed, it just executes in Your bash:
+feh --bg-fill *fullImagePath*
+
+CALLING WITHOUT ARGUMENTS
+You can call the script without arguments and it will try to find it's config file
+in "~/.scripts/autoBG/config.py". In that config file there it waits for just a line
+like "IMAGESPATH = ~/images/wall". If You want to hold the config file in another
+place, You can edit the code.
+
+PASSING AN ARGUMENT
+Yeah, just one. A path to Your lovely folder with Your lovely pictures.
+As i already said, it must be like "~/images/wall". Yes, without a slash at the ending.
+
+Dislike? Change!
